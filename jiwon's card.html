@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title> Invitation Card</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+	background-color: ;
+}
+p{ 
+    margin:0 auto;
+    font-size: 25px;
+    font-family: outo;
+    text-align:center;
+    background-color: pink;
+    padding:10px;
+    border-bottom: 5px;
+
+}
+div{border:2px solid black ;box-sizing: border-box;}
+.header{width:100%;background-color:#DDA0DD;float:left;font-family: cursive; text-align:center;padding:10px;}
+.container{width:800px; margin-left: auto;margin-right: auto;}
+.col1{width:80%; background-color:yellow ;float:left;text-align:center;}
+.col2{width:80%;background-color: white ;float:left;text-align:center;}
+.floatleft{text-align: left ;float:left;}
+
+</style>
+</head> 
+<body>
+	
+
+	<script type ="text/javascript">
+		function change2para()
+		{
+			
+			var d= document.getElementById("div1");
+			/*var a=document.getElementsByTagName("p");*/
+			var a=div1.getElementsByTagName("p");
+			a[0].style.backgroundColor="yellow";
+			}
+			</script>
+<div class ="container">
+<div class ="header"><h1>Jiwon's birthday</h1></div>		
+<div class="col-1"><span class="floatleft"><img src="image/place.png"/ height="290" ></span></div>
+<div class="col-2"><span class="floatleft"><img src="image/cake.png"/height="280"></span></div>
+
+<div id="div1">
+<p>I invite you on my <strong>21st birthday.</strong></p>
+<p>look at the map next to you and follow it.</p>
+<p>I prepared many delicious foods. </p>
+ </div>
+<button onclick="change2para()"> Emphasis </button>
+	 
+</body>
+</html>
